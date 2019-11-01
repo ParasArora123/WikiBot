@@ -14,33 +14,33 @@ Implemented a bot that intelligently finds a Wikipedia link ladder between two g
 Breadth first search --> use a queue (put them in the back take them out the front...first in first out)
 when you go to a page you add all the links to a queue
 
-                o
-		  1   2   3   4      5
-		 o 	  o    o   o 	 o 
-       /     /     \   \    |
-      6     7      8    9   10 
-	   o     o      o    o   o
+                o  
+	1   2   3   4      5  
+       o     o    o   o     o   
+       /     /     \   \    |  
+      6     7      8    9   10   
+      o     o      o    o   o  
  
-With breadth first search I would add links (the numbers) using the following steps:
-Step 1: Add 1, 2, 3, 4, 5, onto the list (list = 1, 2, 3, 4, 5)
-Step 2: Take off 1 and add 6 (list = 2, 3, 4, 5, 6)
-Step 3: Take off 2 and add 7 (list = 3, 4, 5, 6, 7)
-Conitinue this process until you find the link 
-
+With breadth first search I would add links (the numbers) using the following steps:  
+Step 1: Add 1, 2, 3, 4, 5, onto the list (list = 1, 2, 3, 4, 5)  
+Step 2: Take off 1 and add 6 (list = 2, 3, 4, 5, 6)  
+Step 3: Take off 2 and add 7 (list = 3, 4, 5, 6, 7)  
+Conitinue this process until you find the link  
+\
 Queue:
 	.append()
 	.pop()
 
 ### Pseudocode
 put starter page in queue 
-while queue is not empty:
- 		pop the front of queue 
-    go to that page and get links
-		for each link:
-			if link is not the target:
-				append link to queue
-			else:
-				return the path to this link 
+while queue is not empty:  
+ 		pop the front of queue   
+    go to that page and get links  
+		for each link:  
+			if link is not the target:  
+				append link to queue  
+			else:  
+				return the path to this link   
         
 ### Output/Final Display
 Path to the link:
