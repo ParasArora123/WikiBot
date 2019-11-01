@@ -1,10 +1,8 @@
 """ Project Primus!
 	Implement a bot that will intelligently find a Wikipedia link ladder 
-	between two given pages. You will be graded on both finding the shortest 
-	path (or one of them, if there are several of equal length), and how fast 
-	your code runs.
+	between two given pages.
 """
-__author__ = "Paras Arora" # put your name here!
+__author__ = "Paras Arora" 
 
 import re
 import requests
@@ -87,7 +85,7 @@ if __name__ == '__main__':
 # when you go to a page you add all the links to a queue
 
 #                o
-#		  1   2   3   4      5
+#	1   2   3   4      5
 #		 o 	  o    o   o 	 o 
 #       /     /     \   \    |
 #      6     7      8    9   10 
