@@ -1,6 +1,8 @@
 # WikiBot
 Implemented a bot that intelligently finds a Wikipedia link ladder between two given pages. Bot is inspired by the game https://www.thewikigame.com/ and uses the most efficient algorithm possible to get from one page to any other page. 
 
+For instance, if you were to pass in "United States" and "Latin Language" as the start and end pages it would return a tuple: ("United States", "Michigan", "Latin Languages") in under 1 second. The algorithm can also be optimized for speed, number of pages, or some combination of both depending on the inputted settings.
+
 ## __Notes on my Implementation__:
 ### Traversing Trees:
 
