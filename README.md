@@ -1,8 +1,8 @@
 # WikiBot
 Implemented a bot that intelligently finds a Wikipedia link ladder between two given pages. Bot is inspired by the game https://www.thewikigame.com/ and uses the most efficient algorithm possible to get from one page to any other page. 
 
-## NOTES on my implementation:
-### Traversing trees:
+## __Notes on my Implementation__:
+### Traversing Trees:
 
 1. Breadth-first search (look at every path that is one length away from you), once you look at every 1 hop away, then I look at every 2 hop
 2. Depth-first search (go as far down as it can before it does anything)
