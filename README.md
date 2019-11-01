@@ -35,13 +35,13 @@ Queue:
 ### Pseudocode
 put starter page in queue 
 while queue is not empty:  
-&nbsp;&nbsp;pop the front of queue 
-&nbsp;&nbsp;go to that page and get links  
-&nbsp;&nbsp;&nbsp;for each link:  
-&nbsp;&nbsp;&nbsp;&nbsp;if link is not the target:  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;append link to queue  
-&nbsp;&nbsp;&nbsp;&nbsp;else:  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;return the path to this link   
+&nbsp;&nbsp;&nbsp;pop the front of queue 
+&nbsp;&nbsp;&nbsp;go to that page and get links  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;for each link:  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;if link is not the target:  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;append link to queue  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;else:  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;return the path to this link   
         
 ### Output/Final Display
 Path to the link:
